@@ -1,0 +1,12 @@
+{
+  "name": "koa-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JNickBaughan/koa-api.git",
+  "author": "JNickBaughan <JNickBaughan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "openapi-backend": "^3.9.2"
+  }
+}
