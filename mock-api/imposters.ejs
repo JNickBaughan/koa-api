@@ -1,0 +1,4 @@
+{ "imposters" : [{ "port": 1001, "protocol": "http", "name": "mock", "stubs": [
+{ "predicates": [ { "equals": { "method": "GET" } }, { "matches": { "path":
+"/user" } } ], "responses": [ { "is": { "statusCode": 200, "body": { "name":
+"mock-bob" } } } ] } ] }] }

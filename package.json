@@ -6,7 +6,10 @@
   "author": "JNickBaughan <JNickBaughan@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "axios": "^0.21.1",
     "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
     "openapi-backend": "^3.9.2"
   }
 }

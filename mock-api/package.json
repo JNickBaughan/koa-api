@@ -1,0 +1,12 @@
+{
+  "name": "mock-api",
+  "version": "1.0.0",
+  "author": "JNickBaughan <JNickBaughan@gmail.com>",
+  "dependencies": {
+    "mountebank": "^2.4.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "mb --configfile imposters.ejs"
+  }
+}
