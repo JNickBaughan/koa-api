@@ -9,7 +9,7 @@ app.use(bodyparser({ enableTypes: ["json"] }));
 app.use(cors());
 
 const getUser = async () => {
-  const response = await axios.get("http://localhost:1001/user");
+  const response = await axios.get("http://api:1001/user");
   return response.data;
 };
 

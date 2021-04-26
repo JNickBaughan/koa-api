@@ -11,5 +11,9 @@
     "koa": "^2.13.1",
     "koa-bodyparser": "^4.3.0",
     "openapi-backend": "^3.9.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "docker-up": "docker-compose -f docker-compose.yml up --build"
   }
 }
