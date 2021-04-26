@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  app:
+    build: .
+    depends_on:
+      - api
+    ports:
+      - "1000:1000"
+  api:
+    build: ./mock-api
+    ports:
+      - "1001:1001"
